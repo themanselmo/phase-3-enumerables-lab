@@ -64,3 +64,6 @@ def average_heat_level(spicy_foods)
   spicy_foods.each { |food| sum = sum + food[:heat_level] }
   sum / spicy_foods.length
 end
+
+binding.pry
+0
